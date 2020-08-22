@@ -1,0 +1,55 @@
+#div1 {
+  width: auto;
+  height: 480px;
+  padding: 20px;
+  margin: 20px;
+}
+
+h2,
+h4,
+h5,
+p,
+a,
+label,
+button {
+  font-family: Myfont2;
+}
+.p {
+  color: white;
+}
+#cor {
+  color: black;
+}
+
+.button {
+  margin: 5px;
+}
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+@font-face {
+  font-family: Myfont;
+  src: url(Myfont.otf);
+}
+
+@font-face {
+  font-family: Myfont2;
+  src: url(Myfont2.ttf);
+}
+
+#Myfont {
+  font-family: Myfont;
+}
+
+#Myfont2 {
+  font-family: Myfont2;
+}
+.card {
+  transition: all 0.2s;
+}
+
+.card:hover {
+  z-index: 1;
+  transform: scale(1.08);
+}
